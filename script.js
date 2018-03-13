@@ -1,9 +1,24 @@
 var canvas = document.getElementById('canvas');
-var context= canvas.getContent('2d');
-context.strokeStyle="green";
-context.moveTo(30,40);
-context.lineTo(145,120);
-context.stroke();
+var ctx = canvas.getContext('2d');
+
+
+function init() {
+  window.requestAnimationFrame(draw);
+}
+
+function draw() {
+  var ctx = document.getElementById('canvas').getContext('2d');
+  
+  ctx.strokeStyle="green";
+  ctx.moveTo(30,40);
+  ctx.lineTo(145,120);
+  ctx.stroke();
+
+  window.requestAnimationFrame(draw);
+}
+
+init();
+
 
 //from https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations
 /*var canvas = document.getElementById('canvas');
@@ -16,11 +31,17 @@ function init() {
   sun.src = 'https://mdn.mozillademos.org/files/1456/Canvas_sun.png';
   moon.src = 'https://mdn.mozillademos.org/files/1443/Canvas_moon.png';
   earth.src = 'https://mdn.mozillademos.org/files/1429/Canvas_earth.png';
+  
   window.requestAnimationFrame(draw);
 }
 
 function draw() {
   var ctx = document.getElementById('canvas').getContext('2d');
+  
+  ctx.strokeStyle="green";
+  ctx.moveTo(30,40);
+  ctx.lineTo(145,120);
+  ctx.stroke();
 
   ctx.globalCompositeOperation = 'destination-over';
   ctx.clearRect(0, 0, 300, 300); // clear canvas
