@@ -119,7 +119,7 @@ var cats=[catOG,
 
 //the "animation"
 
-var requestID;
+var timing;
 
 var counter=0; 
 var innerCounter=0;
@@ -151,16 +151,15 @@ function draw(array) {
         if (x<=0)
           breatheIn=0;
       }
-  
-  requestID=window.requestAnimationFrame(draw(array));
+  if (counter<= array.length*6+innerCounter*3)
+    window.requestAnimationFrame(draw(array));
+  else
+    counter=0;
   },timing);
 }
 
 //Things that need to be changed -- like a runner class
 
-
-var timing= 1000/10;//change this value to change overall rate, second value is frames per second
-draw(whales,10);
 
 
 
