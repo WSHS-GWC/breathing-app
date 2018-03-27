@@ -1,5 +1,9 @@
+//instance variables and methods
+
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
+
+//the animals
 
 var whaleOG= new Image();
 var whale1= new Image();
@@ -73,6 +77,8 @@ cat6.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcat7.jpg
 cat7.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcat8.jpg?1521646433479";
 cat8.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcat9.jpg?1521646447953";
 cat9.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcat10.jpg?1521646454532";
+whaleOG.height="400";
+whaleOG.width="400";
 var whales=[
   whaleOG,
   whale1,
@@ -111,13 +117,14 @@ var cats=[catOG,
   cat8,
   cat9];
 
+//the "animation"
+
 var requestID;
 
-
-var counter=0;  
+var counter=0; 
+var innerCounter=0;
 var x=0;
-var breatheIn= true;
-
+var breatheIn= 0;//0= breathe in, 1= hold, 2= breathe out
 
 function draw(array) {
   
@@ -126,23 +133,34 @@ function draw(array) {
   
   setTimeout(function(){
   
-    ctx.drawImage(array[x],0,0);
-      if(breatheIn==true){
+    ctx.drawImage(array[x],0,0,400,400);
+      if(breatheIn==0){
         x++;
         if (x>= (array.length-1))
-          breatheIn=false;
+          breatheIn=1;
       }
-      else if(breatheIn==false){
+      else if(breatheIn==1){
+        innerCounter++;
+        if (innerCounter>= 5){//change this value to change length of pause
+          innerCounter=0;
+          breatheIn=2;
+        }
+      }
+      else if(breatheIn==2){
         x--;
         if (x<=0)
-          breatheIn=true;
+          breatheIn=0;
       }
   
   requestID=window.requestAnimationFrame(draw(array));
-  },1000/10);
+  },timing);
 }
 
-draw(cats);
+//Things that need to be changed -- like a runner class
+
+
+var timing= 1000/10;//change this value to change overall rate, second value is frames per second
+draw(whales,10);
 
 
 
