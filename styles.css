@@ -21,15 +21,25 @@ li a{
 li a:hover {
     background-color: #111;
 }
-.whaleButton{
+div.animation{
+  margin: 10px;
+}
+#whaleButton{
   height: 100px; 
   width: 100px;   
   background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20icon.png?1522119313908");
-  background-repeat:no-repeat;
+  position: relative;
+  bottom: 300px;
+  left: 10px;
 }
-.catButton{
+#catButton{
   height: 100px; 
   width: 100px;   
   background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcat%20icon.jpg?1522118963448");
-  
+  position: relative;
+  bottom: 300px;
+  left: 20px;
+}
+#canvas{
+  border:5px solid pink; 
 }
