@@ -24,7 +24,7 @@ li a:hover {
 div.animation{
   margin: 10px;
 }
-/* Create two equal columns that floats next to each other */
+/* Create two columns that float next to each other--- doesn't work, they aren't next to eachother */
 .leftcolumn {   
     float: left;
     width: 75%;
