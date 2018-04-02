@@ -21,20 +21,19 @@ li a{
 li a:hover {
     background-color: #111;
 }
-div.animation{
-  margin: 10px;
-}
-/* Create two equal columns that floats next to each other */
+
+
+/* Create two equal columns that float next to each other ---- doesn't work, they're not next to eachother*/
 .leftcolumn {   
     float: left;
-    width: 75%;
+    width: 50%;
 }
 
 /* Right column */
 .rightcolumn {
     float: left;
-    width: 25%;
-    padding-left: 10px;
+    width: 50%;
+    padding-left: 100px;
 }
 
 /* Clear floats after the columns */
