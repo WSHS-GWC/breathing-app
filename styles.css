@@ -24,21 +24,43 @@ li a:hover {
 div.animation{
   margin: 10px;
 }
+/* Create two equal columns that floats next to each other */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other on smaller screens (800px wide or less) */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
 #whaleButton{
   height: 100px; 
   width: 100px;   
   background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20icon.png?1522119313908");
-  position: relative;
-  bottom: 300px;
-  left: 10px;
 }
 #catButton{
   height: 100px; 
   width: 100px;   
   background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcat%20icon.jpg?1522118963448");
-  position: relative;
-  bottom: 300px;
-  left: 20px;
 }
 #canvas{
   border:5px solid pink; 
