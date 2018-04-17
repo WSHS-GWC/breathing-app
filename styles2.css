@@ -1,0 +1,67 @@
+html, body {
+margin: 0px;
+padding: 0px;
+border: 0px;
+
+}
+
+h1 {
+  color: fuchsia;
+}
+ul{
+  list-style-type: none;
+  margin-left: 0rem;
+  padding: 0;
+  overflow:hidden;
+  background-color:#01FF70;
+}
+li{
+  float:left;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 11px;
+  text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+
+.row{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.leftcolumn{
+  flex: 100%;
+}
+
+.middlecolumn{
+  flex: 100%;
+}
+
+.rightcolumn{
+  flex: 100%;
+}
+
+#whaleButton{
+  height: 100px; 
+  width: 100px;   
+  background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20icon.png?1522119313908");
+  margin: 2rem;
+}
+#catButton{
+  height: 100px; 
+  width: 100px;   
+  background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcat%20icon.jpg?1522118963448");
+  margin-top: 2rem;
+}
+#canvas{
+  border:5px solid pink; 
+  margin-left: 0.5rem;
+  width: 350px;
+  height: 350px;
+}
