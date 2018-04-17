@@ -1,9 +1,16 @@
+html, body {
+margin: 0px;
+padding: 0px;
+border: 0px;
+
+}
+
 h1 {
   color: fuchsia;
 }
 ul{
   list-style-type: none;
-  margin: 0;
+  margin-left: 0rem;
   padding: 0;
   overflow: hidden;
   background-color:#01FF70;
@@ -21,47 +28,39 @@ li a{
 li a:hover {
     background-color: #111;
 }
-div.animation{
-  margin: 10px;
-}
-/* Create two columns that float next to each other--- doesn't work, they aren't next to eachother */
-.leftcolumn {   
-    float: left;
-    width: 75%;
+
+
+.row{
+  display: flex;
 }
 
-/* Right column */
-.rightcolumn {
-    float: left;
-    width: 25%;
-    padding-left: 10px;
+.leftcolumn{
+  flex: 33%;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.middlecolumn{
+  flex: 33%;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other on smaller screens (800px wide or less) */
-@media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {   
-        width: 100%;
-        padding: 0;
-    }
+.rightcolumn{
+  flex: 33%;
 }
+
 
 #whaleButton{
   height: 100px; 
   width: 100px;   
   background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20icon.png?1522119313908");
+  margin-top: 2rem;
+  margin-right: 1rem;
 }
 #catButton{
   height: 100px; 
   width: 100px;   
   background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcat%20icon.jpg?1522118963448");
+  margin-top: 2rem;
 }
 #canvas{
   border:5px solid pink; 
+  margin: 2rem;
 }
