@@ -32,6 +32,11 @@ li a:hover {
     background-color: 	rgb(39, 15, 54);
 }
 
+#logo{
+  width:187.5px;
+  height:82.1875px;
+  border:0;
+}
 
 .row-header{
   display:flex
@@ -79,6 +84,25 @@ li a:hover {
 #canvas{
   border:5px solid rgb(237,195,116); 
   margin: 2rem;
+}
+
+/* about page */
+#group-photo{
+  float: right; 
+  position:absolute; 
+  left:40rem; 
+  top:13rem;   
+  margin-bottom: 0.5rem; 
+  width:500px;
+  height:450px;
+}
+
+@media screen and (max-width: 1000){
+  #group-photo{
+  margin-bottom: 0.5rem; 
+  width:500px;
+  height:450px;
+}
 }
 
 .footer {
