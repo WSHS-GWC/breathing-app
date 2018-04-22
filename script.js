@@ -41,6 +41,16 @@ var cat6= new Image();
 var cat7= new Image();
 var cat8= new Image();
 var cat9= new Image();
+var dog1= new Image();
+var dog2= new Image();
+var dog3= new Image();
+var dog4= new Image();
+var dog5= new Image();
+var dog6= new Image();
+var dog7= new Image();
+var dog8= new Image();
+var dog9= new Image();
+var dog10= new Image();
 whaleOG.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20OG.png?1520968631916";
 whale1.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f1.png?1520968452324";
 whale2.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f2.png?1520968478414";
@@ -77,8 +87,16 @@ cat6.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcat7.jpg
 cat7.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcat8.jpg?1521646433479";
 cat8.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcat9.jpg?1521646447953";
 cat9.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcat10.jpg?1521646454532";
-whaleOG.height="400";
-whaleOG.width="400";
+dog1.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FDog1.0.png?1524357509806";
+dog2.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FDog2.png?1524357512656";
+dog3.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FDog3.png?1524357515219";
+dog4.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FDog4.png?1524357517741";
+dog5.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FDog5.png?1524357520044";
+dog6.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FDog6.0.png?1524357523212";
+dog7.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FDog7.0.png?1524357525587";
+dog8.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FDog8.png?1524357527712";
+dog9.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FDog9.png?1524357543410";
+dog10.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FDog10.png?1524357545374";
 var whales=[
   whaleOG,
   whale1,
@@ -116,6 +134,16 @@ var cats=[catOG,
   cat7,
   cat8,
   cat9];
+var dogs=[dog1,
+          dog2,
+          dog3,
+          dog4,
+          dog5,
+          dog6,
+          dog7,
+          dog8,
+          dog9,
+          dog10];
 
 //the "animation"
 
