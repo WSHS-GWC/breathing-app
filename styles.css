@@ -80,6 +80,13 @@ li a:hover {
   width: 100px;   
   background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcat%20icon.jpg?1522118963448");
   margin-top: 2rem;
+  margin-right: 1rem;
+}
+#dogButton{
+  height: 100px; 
+  width: 100px;   
+  background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FdogLogo.png?1524358849938");
+  margin-top: 2rem;
 }
 #canvas{
   border:5px solid rgb(237,195,116); 
@@ -97,13 +104,13 @@ li a:hover {
   height:450px;
 }
 
-/*@media screen and (max-width: 1000){
+@media screen and (max-width: 1000){
   #group-photo{
   margin-bottom: 0.5rem; 
   width:500px;
   height:450px;
 }
-}*/
+}
 
 .footer {
    position: fixed;
