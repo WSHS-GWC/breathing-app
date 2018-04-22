@@ -72,12 +72,19 @@ li a:hover {
   height: 100px; 
   width: 100px;   
   background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20icon.png?1522119313908");
-  margin: 2rem;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
 }
 #catButton{
   height: 100px; 
   width: 100px;   
   background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcat%20icon.jpg?1522118963448");
+  margin-top: 2rem;
+}
+#dogButton{
+  height: 100px; 
+  width: 100px;   
+  background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FdogLogo.png?1524358849938");
   margin-top: 2rem;
 }
 #canvas{
@@ -102,5 +109,3 @@ li a:hover {
    color: white;
    text-align: center;
 }
-
-
