@@ -1,6 +1,6 @@
 h1 {
   color: rgb(246,126,90);
-  font-family: Freestyle Script, cursive;
+  font-family: Script MT, bold, cursive;
   font-size: 30px;
   margin-top: 1.5rem;
   margin-left: 1rem;
@@ -10,15 +10,35 @@ img{
   margin: 1rem;
 }
 
-ul{
+#navigation{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: rgb(148,128,156);
-  font-family: verdana,geneva, sans-serif;
+  font-family: Trebuchet MS/*verdana,geneva, sans-serif*/;
   
 }
+
+ul{
+  font-family: Trebuchet MS;
+}
+
+li1{
+  font-family: Trebuchet MS;
+}
+
+p{
+  font-family: Trebuchet MS;
+}
+h2{
+  font-family: Trebuchet MS;
+}
+h3{
+  font-family: Trebuchet MS;
+}
+
+
 li{
   float: left;
 }
@@ -87,6 +107,20 @@ li a:hover {
   background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FdogLogo.png?1524358849938");
   margin-top: 2rem;
 }
+#crabButton{
+  height: 100px; 
+  width: 100px;   
+  background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FcrabButton.png?1524789990903");
+  margin-top: 2rem;
+  margin-left:5rem;
+}
+#frogButton{
+  height: 100px; 
+  width: 100px;   
+  background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FfrogButton.png?1525398064818");
+  margin-top: 2rem;
+}
+
 #canvas{
   border:5px solid rgb(237,195,116); 
   margin: 1rem;
@@ -99,6 +133,25 @@ li a:hover {
   width:320px;
   height:275px;
 }
+#group-photo2{
+  width:320px;
+  height:275px;
+}
+
+/*creation page*/
+#KAImg{
+  width:350px;
+  height:180px;
+}
+#ALImg{
+  width:350px;
+  height:180px;
+}
+#GImg{
+  width:350px;
+  height:180px;
+}
+
 
 .footer {
    position: fixed;
