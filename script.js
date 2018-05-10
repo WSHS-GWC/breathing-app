@@ -51,6 +51,42 @@ var dog7= new Image();
 var dog8= new Image();
 var dog9= new Image();
 var dog10= new Image();
+var crab1= new Image();
+var crab2= new Image();
+var crab3= new Image();
+var crab4= new Image();
+var crab5= new Image();
+var crab6= new Image();
+var crab7= new Image();
+var crab8= new Image();
+var crab9= new Image();
+var crab10= new Image();
+var crab11= new Image();
+var crab12= new Image();
+var crab13= new Image();
+var crab14= new Image();
+var crab15= new Image();
+var frog1= new Image();
+var frog2= new Image();
+var frog3= new Image();
+var frog4= new Image();
+var frog5= new Image();
+var frog6= new Image();
+var frog7= new Image();
+var frog8= new Image();
+var frog9= new Image();
+var frog10= new Image();
+var frog11= new Image();
+var frog12= new Image();
+var frog13= new Image();
+var frog14= new Image();
+var frog15= new Image();
+var frog16= new Image();
+var frog17= new Image();
+var frog18= new Image();
+var frog19= new Image();
+var frog20= new Image();
+
 whaleOG.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20OG.png?1520968631916";
 whale1.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f1.png?1520968452324";
 whale2.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f2.png?1520968478414";
@@ -97,6 +133,36 @@ dog7.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FDog7.0.p
 dog8.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FDog8.png?1524357527712";
 dog9.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FDog9.png?1524357543410";
 dog10.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FDog10.png?1524357545374";
+crab1.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcrab1.png?1525392261493";
+crab2.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcrab2.png?1525393361833";
+crab3.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcrab3.png?1525393364168";
+crab4.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcrab4.png?1525393367516";
+crab5.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcrab5.png?1525393369449";
+crab6.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcrab6.png?1525393371619";
+crab7.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcrab7.png?1525393373304";
+crab8.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcrab8.png?1525393375105";
+frog1.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff1.png?1525396086525";
+frog2.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff2.png?1525396209952";
+frog3.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff3.png?1525396212980";
+frog4.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff4.png?1525396214635";
+frog5.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff5.png?1525396216499";
+frog6.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff6.png?1525396218379";
+frog7.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff7.png?1525396219909";
+frog8.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff8.png?1525396221907";
+frog9.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff9.png?1525396223583";
+frog10.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff10.png?1525396225340";
+frog11.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff11.png?1525396227391";
+frog12.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff12.png?1525396228837";
+frog13.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff13.png?1525396230451";
+frog14.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff14.png?1525396232135";
+frog15.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff15.png?1525396233808";
+frog16.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff16.png?1525396235608";
+frog17.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff17.png?1525396239956";
+frog18.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff18.png?1525396241931";
+frog19.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff19.png?1525396243737";
+frog20.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Ff20.png?1525396245326";
+
+
 var whales=[
   whaleOG,
   whale1,
@@ -144,6 +210,34 @@ var dogs=[dog1,
           dog8,
           dog9,
           dog10];
+var crabs=[crab1,
+          crab2,
+          crab3,
+          crab4,
+          crab5,
+          crab6,
+          crab7,
+          crab8];
+var frogs=[frog1,
+          frog2,
+          frog3,
+          frog4,
+          frog5,
+          frog6,
+          frog7,
+          frog8,
+          frog9,
+          frog10,
+          frog11,
+          frog12,
+          frog13,
+          frog14,
+          frog15,
+          frog16,
+          frog17,
+          frog18,
+          frog19,
+          frog20];
 
 //the "animation"
 
@@ -152,7 +246,7 @@ var timing;
 var counter=0; 
 var innerCounter=0;
 var x=0;
-var breatheIn= 0;//0= breathe in, 1= hold, 2= breathe out
+var breatheIn= 0;//0= breathe in, 1= hold, 2= breathe out, 3= hold
 
 function draw(array) {
   
@@ -169,7 +263,7 @@ function draw(array) {
       }
       else if(breatheIn==1){
         innerCounter++;
-        if (innerCounter>= 5){//change this value to change length of pause
+        if (innerCounter>= 10){//change this value to change length of pause
           innerCounter=0;
           breatheIn=2;
         }
@@ -177,7 +271,14 @@ function draw(array) {
       else if(breatheIn==2){
         x--;
         if (x<=0)
+          breatheIn=3;
+      }
+      else if(breatheIn==3){
+        innerCounter++;
+        if (innerCounter>= 10){//change this value to change length of pause
+          innerCounter=0;
           breatheIn=0;
+        }
       }
   if (counter<= array.length*6+innerCounter*3)
     window.requestAnimationFrame(draw(array));
@@ -187,4 +288,3 @@ function draw(array) {
 }
 
 //Things that need to be changed -- like a runner class
-
