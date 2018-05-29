@@ -247,13 +247,15 @@ var counter=0;
 var innerCounter=0;
 var x=0;
 var breatheIn= 0;//0= breathe in, 1= hold, 2= breathe out, 3= hold
+var newAnimal=false;
 
 function draw(array) {
   
   counter++;
-  console.log(counter);
   
   setTimeout(function(){
+    
+    newAnimal=false;
   
     ctx.drawImage(array[x],0,0,400,400);
       if(breatheIn==0){
@@ -280,12 +282,13 @@ function draw(array) {
           breatheIn=0;
         }
       }
-  if (counter<= array.length*6+innerCounter*3)
+  if (counter<= array.length*8+20*8 && !newAnimal)
     window.requestAnimationFrame(draw(array));
-  else
+  else{
     counter=0;
+    window.location.reload();
+  }
   },timing);
 }
 
-//Things that need to be changed -- like a runner class
 
