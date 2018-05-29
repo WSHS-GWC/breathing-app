@@ -6,10 +6,6 @@ h1 {
   margin-left: 1rem;
 }
 
-img{
-  margin: 1rem;
-}
-
 #navigation{
   list-style-type: none;
   margin: 0;
@@ -25,19 +21,21 @@ ul{
 }
 
 li1{
-  font-family: Trebuchet MS;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 p{
   font-family: Trebuchet MS;
 }
 h2{
-  font-family: Trebuchet MS;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 28px;
 }
 h3{
   font-family: Trebuchet MS;
 }
-
 
 li{
   float: left;
@@ -112,13 +110,20 @@ li a:hover {
   width: 100px;   
   background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FcrabButton.png?1524789990903");
   margin-top: 2rem;
-  margin-left:5rem;
+  margin-left:1.5rem;
 }
 #frogButton{
   height: 100px; 
   width: 100px;   
   background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FfrogButton.png?1525398064818");
   margin-top: 2rem;
+}
+#resetButton{
+  height: 100px; 
+  width: 100px;   
+  background-image:url("https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Freset%20button.png?1527619994405");
+  margin-top: 2rem;
+  margin-bottom:1.5rem;
 }
 
 #canvas{
@@ -129,13 +134,27 @@ li a:hover {
 }
 
 /* about page */
-#group-photo{ 
-  width:320px;
-  height:275px;
+#group-photo-image{ 
+  width:300px;
+  height:250px;   
 }
-#group-photo2{
-  width:320px;
-  height:275px;
+#group-photo2-image{
+  width:300px;
+  height:250px;
+}
+figcaption{
+  font-family: Segoe UI, Semilight;
+  font-size:15px;
+}
+
+/*team page*/
+#fade1{
+  width:80%;
+ 
+}
+#fade2{
+ height:300px;
+  
 }
 
 /*creation page*/
