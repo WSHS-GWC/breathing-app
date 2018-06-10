@@ -19,7 +19,7 @@ var whale10= new Image();
 var whale11= new Image();
 var whale12= new Image();
 var whale13= new Image();
-var whale14= new Image();
+/*var whale14= new Image();
 var whale15= new Image();
 var whale16= new Image();
 var whale17= new Image();
@@ -30,7 +30,7 @@ var whale21= new Image();
 var whale22= new Image();
 var whale23= new Image();
 var whale24= new Image();
-var whale25= new Image();
+var whale25= new Image();*/
 var catOG= new Image();
 var cat1= new Image();
 var cat2= new Image();
@@ -101,7 +101,7 @@ whale10.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale
 whale11.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f11.png?1520968668705";
 whale12.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f12.png?1520968666707";
 whale13.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f13.png?1520968664789";
-whale14.rc="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f14.png?1520968660301";
+/*whale14.rc="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f14.png?1520968660301";
 whale15.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f15.png?1520968658513";
 whale16.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f16.png?1520968656257";
 whale17.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f17.png?1520968651100";
@@ -112,7 +112,7 @@ whale21.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale
 whale22.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f22.png?1520968640592";
 whale23.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f23.png?1520968637245";
 whale24.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f24.png?1520968635043";
-whale25.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f25.png?1520968633292";
+whale25.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fwhale%20cuuuute%20f25.png?1520968633292";*/
 catOG.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FCat1.jpg?1521646375522";
 cat1.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2FCat2.jpg?1521646395686";
 cat2.src="https://cdn.glitch.com/eb06f58b-caba-43d0-b6ce-18dd6a29c210%2Fcat3.jpg?1521646402402";
@@ -178,7 +178,7 @@ var whales=[
   whale11,
   whale12,
   whale13,
-  whale14,
+  /*whale14,
   whale15,
   whale16,
   whale17,
@@ -189,7 +189,7 @@ var whales=[
   whale22,
   whale23,
   whale24,
-  whale25];
+  whale25*/];
 var cats=[catOG,
   cat1,
   cat2,
@@ -247,7 +247,6 @@ var counter=0;
 var innerCounter=0;
 var x=0;
 var breatheIn= 0;//0= breathe in, 1= hold, 2= breathe out, 3= hold
-var newAnimal=false;
 
 function draw(array) {
   
@@ -255,16 +254,16 @@ function draw(array) {
   
   setTimeout(function(){
     
-    newAnimal=false;
-  
-    ctx.drawImage(array[x],0,0,400,400);
+      ctx.drawImage(array[x],0,0,400,400);
       if(breatheIn==0){
         x++;
+        console.log(x);
         if (x>= (array.length-1))
           breatheIn=1;
       }
       else if(breatheIn==1){
         innerCounter++;
+        console.log(innerCounter);
         if (innerCounter>= 10){//change this value to change length of pause
           innerCounter=0;
           breatheIn=2;
@@ -272,17 +271,19 @@ function draw(array) {
       }
       else if(breatheIn==2){
         x--;
+        console.log(x);
         if (x<=0)
           breatheIn=3;
       }
       else if(breatheIn==3){
         innerCounter++;
+        console.log(innerCounter);
         if (innerCounter>= 10){//change this value to change length of pause
           innerCounter=0;
           breatheIn=0;
         }
       }
-  if (counter<= array.length*8+20*8 && !newAnimal)
+  if (counter<= array.length*8+20*8)
     window.requestAnimationFrame(draw(array));
   else{
     counter=0;
@@ -290,6 +291,3 @@ function draw(array) {
   }
   },timing);
 }
-
-
-
